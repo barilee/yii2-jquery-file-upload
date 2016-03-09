@@ -1,0 +1,21 @@
+{
+    "name": "barilee/yii2-jquery-file-upload",
+    "description": "Renders a BlueImp jQuery File Upload plugin. That plugin integrates multiple file selection, drag&drop support, progress bars, validation and preview of images.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","jquery","file upload"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Barilee Apenu",
+            "email": "barileeapenu@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "barilee\\jqueryFileUpload\\": ""
+        }
+    }
+}
